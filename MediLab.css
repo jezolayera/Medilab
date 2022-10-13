@@ -1,0 +1,156 @@
+.background{
+  background-image: url('hero-bg.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  height: 70vh;
+}
+.doc:hover{
+  transform: scale(1.1);
+}
+.doc:hover{
+  transition-delay:1ms;
+}
+.doct:hover{
+  background-color:#385875;
+  color: white;
+}
+
+/*primary= #0d6efd */
+
+.gallery:hover{
+  transform: scale(1.1);
+  transition: all ease-in-out 0.4s;
+  cursor: pointer;
+}
+
+.social i{
+  background-color: #9dc4e9;
+  color: white;
+}
+
+.social i:hover{
+  background-color: #1977cc;
+  /* transition: ease-in-out 0.3s; */
+}
+
+.info i{
+  background-color: #6cace7;
+  padding:10px;
+  font-size: 20px;
+  color: #1977cc;
+  float: left;
+  width: 44px;
+  height: 44px;
+  background: #d6e9fa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  transition: all 0.3s ease-in-out;
+}
+
+.dept a.nav-link{
+  border-right:solid 2px lightgrey ;
+  background-color: transparent;
+  border-radius: 0;
+  font-weight: 400;
+  color: #385875;
+}
+.dept a.nav-link.active {
+  color:#385875 ;
+  border-right:solid 2px #1977cc;
+  background-color: transparent;
+  font-weight: bold;
+}
+
+
+.doct2 h2{
+  color: #2c4e6e;
+  font-size: 25px;
+}
+/* The Hover Effect for doct2*/
+
+.services .icon-box{
+  text-align: center;
+  border: 1px solid #d5e1ed;
+  padding: 50px 20px;
+  transition: all ease-in-out 0.3s;
+}
+
+.icon i{
+  color: white;
+  font-size: 25px;
+  border: 1px solid #1977cc;
+  background-color: #1977cc;
+  padding: 23px;
+}
+
+.services .icon-box .icon{
+  background: #1977cc;
+  margin: 0 auto;
+  width: 64px;
+  height:64px;
+ margin-bottom: 20px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+  transform-style: preserve-3d;
+  border-radius: 8px;
+}
+
+.services .icon-box .icon i{
+  color: #fff;
+  font-size: 28px;
+}
+
+.services .icon-box .icon::before{
+  position: absolute;
+  content: "";
+  top: -20px;
+  left: -20px;
+  right: -10px;
+  height: 120%;
+  width: 120%;
+  background-color: #badaf7;
+  border-radius: 5px;
+  transition: all 0.3s ease-out 0s;
+  transform: translateZ(-1px);
+}
+
+.services .icon-box h2{
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-size: 24px;
+  color: #2c4964;
+}
+
+.services .icon-box:hover{
+  background-color: #1977cc;
+   border-color:#1977cc ;
+}
+
+.services .icon-box:hover .icon{
+  background-color: #fff;
+}
+
+.services .icon-box:hover .icon i{
+  color: #1977cc;
+}
+
+.services .icon-box:hover .icon::before{
+  background: #3291e6;
+}
+
+.services .icon-box:hover ,
+.services .icon-box:hover h2,
+.services .icon-box:hover p{
+  color: white;
+}
+
+.services .icon:hover i{
+  background-color: white;
+  color: #1977cc;
+  border-color: white;
+}  
